@@ -18,7 +18,7 @@ To do that, just follow along:
 
 * Under "Community StackScripts," search for Apostrophe.
 
-* The correct StackScript will identify itself as "punkave / Apostrophe CMS"./ Click that entry.
+* The correct StackScript will identify itself as "apostrophecms / Apostrophe CMS"./ Click that entry.
 
 * Supply a secure, unique password for the "nodeapps" Linux user. You'll need this password for deployment; write it down. *Do not use your Linode password.*
 
@@ -26,11 +26,9 @@ To do that, just follow along:
 
 * Leave the other fields as-is.
 
-* Click "Deploy."
+* Click "Create."
 
-* When the "Disk Create" step finishes, click "Boot."
-
-* When "Boot" completes, click "Remote Access." Under "SSH Access," you'll see a suggested command to access the server as root. Write down the IP address.
+* When Linode is provisioned, click on the "Networking" tab. Under "SSH Access," you'll see a suggested command to access the server as root. Write down the IP address.
 
 * In the `deployment` folder of your Apostrophe site on your computer,copy `settings.example` to `settings`. Then change the `PROJECT=apostrophe` setting to match your `shortName` setting from `app.js`.
 
